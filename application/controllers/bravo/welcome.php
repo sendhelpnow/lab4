@@ -1,8 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-include 'Welcome.php';
 
-class Bravo extends Welcome
+class Welcome extends Application
 {
 
 	function __construct()
