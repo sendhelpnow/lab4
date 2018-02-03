@@ -5,6 +5,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+defined('BASEPATH') OR exit('No direct script access allowed');
+
 class Able extends Application
 {
 
@@ -13,9 +15,12 @@ class Able extends Application
 		parent::__construct();
 	}
 
+	/**
+	 * alpha controller
+	 */
 	public function index()
 	{
-                $this->show(1);
+		$this->show(1);
 	}
 
 }
